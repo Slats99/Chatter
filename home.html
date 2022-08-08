@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            header {
+                background-color: #586A6A;
+                padding: 15px;
+                text-align: center;
+                color: #F0F7EE;
+                font-size: 24px;
+                font-family: 'Pacifico', cursive;
+            }
+            main {
+                flex-grow: 1;
+            }
+            .login-box-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                background-image: url('./images/chatter\ background.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .login-box {
+                border: 1px solid  #586A6A;
+                width: 500px;
+                padding: 20px;
+                text-align: center;
+                background-color: rgba(189, 207, 181, .5);
+            }
+            input[type=text] {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid  #586A6A;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .primary-btn {
+                color: #F0F7EE;
+                background-color: #586A6A;
+                border-radius: 5px;
+                border: none;
+                padding: 10px 20px;
+            }
+            .login-btn {
+                display: block;
+                margin: auto;
+            }
+            a {
+                color: #586A6A;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                Chatter
+            </div>
+        </header>
+        <main>
+            <div class="login-box-container">
+                <div class="login-box">
+                    <form action="">
+                        <input type="text" placeholder="User Name">
+                        <input type="text" placeholder="Password">
+                        <button type="submit" class="primary-btn login-btn">Submit</button>
+                    </form>
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
