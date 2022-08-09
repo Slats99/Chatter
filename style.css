@@ -1,3 +1,4 @@
+/* Genreral */
 body {
     margin: 0;
     display: flex;
@@ -14,26 +15,12 @@ header {
 }
 main {
     flex-grow: 1;
-}
-h2 {
-    color: #586A6A;                
-}
-.login-box-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
     background-image: url('./images/chatter\ background.jpg');
     background-position: center;
     background-size: cover;
 }
-.login-box {
-    border: 1px solid  #586A6A;
-    width: 500px;
-    padding: 20px 50px;
-    text-align: center;
-    background-color: rgba(189, 207, 181, .7);
-    box-sizing: border-box;
+h1, h2 {
+    color: #586A6A;                
 }
 input[type=text] {
     padding: 10px;
@@ -49,6 +36,22 @@ input[type=text] {
     border: none;
     padding: 10px 20px;
 }
+
+/* Log in */
+.login-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.login-box {
+    border: 1px solid  #586A6A;
+    width: 500px;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: rgba(189, 207, 181, .7);
+    box-sizing: border-box;
+}
 .login-btn {
     display: block;
     margin: auto;
@@ -57,4 +60,25 @@ input[type=text] {
     color: #586A6A;
     text-decoration: none;
     font-weight: bold;
+}
+/* Home */
+.home-main {
+    display: flex;
+    justify-content: center;
+}
+.timeline-container {
+    background-color: #F0F7EE;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.chats-feed {
+    flex-grow: 4;
+    border-right: 1px solid #586A6A;
+}
+.recent-users-feed {
+    flex-grow: 1;
+    padding-left: 20px;
 }
