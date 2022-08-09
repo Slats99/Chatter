@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header {
+    background-color: #586A6A;
+    padding: 15px;
+    text-align: center;
+    color: #F0F7EE;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+main {
+    flex-grow: 1;
+}
+h2 {
+    color: #586A6A;                
+}
+.login-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('./images/chatter\ background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.login-box {
+    border: 1px solid  #586A6A;
+    width: 500px;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: rgba(189, 207, 181, .7);
+    box-sizing: border-box;
+}
+input[type=text] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid  #586A6A;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.primary-btn {
+    color: #F0F7EE;
+    background-color: #586A6A;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+.login-btn {
+    display: block;
+    margin: auto;
+}
+.login-box a {
+    color: #586A6A;
+    text-decoration: none;
+    font-weight: bold;
+}
